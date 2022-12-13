@@ -10,9 +10,8 @@ public class Exercise003 : MonoBehaviour
     {
         RandomNum(x, y);
     }
-    private void RandomNum(int numX, int numY)
+    private Vector3 RandomNum(int numX, int numY)
     {
-        transform.position = new Vector3(Random.Range(numX, numY), 0, 0);
-        Debug.Log(message: $"{transform.position.x} random num");
+        return transform.position = new Vector3(Random.Range(numX, numY), 0, 0);//retorna un vector con una x ramdom
     }
 }

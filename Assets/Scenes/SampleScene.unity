@@ -313,6 +313,11 @@ GameObject:
   - component: {fileID: 1066810257}
   - component: {fileID: 1066810256}
   - component: {fileID: 1066810255}
+  - component: {fileID: 1066810260}
+  - component: {fileID: 1066810261}
+  - component: {fileID: 1066810262}
+  - component: {fileID: 1066810263}
+  - component: {fileID: 1066810259}
   m_Layer: 0
   m_Name: ffff
   m_TagString: Untagged
@@ -398,3 +403,75 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1066810259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066810254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bff587174433a440b362e2e23fa5ea9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  x: 1
+  y: 1
+  z: 1
+--- !u!114 &1066810260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066810254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9747ae9c17b30104ea42373d99fac28c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  suma: 0
+--- !u!114 &1066810261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066810254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81d4e73913290a84187ddb4ebffa0931, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  centimetros: 3
+--- !u!114 &1066810262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066810254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 203a47f9fb89b6b49b7d107c913c6341, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  x: 3
+  y: 7
+--- !u!114 &1066810263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066810254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddf7cbec383a3b640823d0e4ad42cf1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  palabras:
+  - hello
+  - bye
+  - yes
+  - no

@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class Exercise004 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public string[] palabras;//almacena palabras
+    private int Ramdom;//para rango ramdom
+    private string cosaReturn;//para devolver valor del resultado
+
+    
     void Start()
     {
-        
+        RamdomW();
     }
-
-    // Update is called once per frame
-    void Update()
+    private string RamdomW()
     {
-        
+        Ramdom = Random.Range(0, palabras.Length);
+        Debug.Log($"{palabras[Ramdom]}");
+        return cosaReturn;
     }
 }

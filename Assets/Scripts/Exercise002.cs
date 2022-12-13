@@ -5,13 +5,13 @@ using UnityEngine;
 public class Exercise002 : MonoBehaviour
 {
     public float centimetros;
-    public float pul = 393701f;
     void Start()
     {
-            Operator(centimetros, pul);
+            Operator(centimetros);
     }
-    private void Operator(float cm, float pulgadas)
+    private float Operator(float cm)
     {
-        Debug.Log(message:$"Son {cm * pulgadas / 1000000} pulgadas");
+        float result = cm * 393701 / 1000000;//crear variable con resulto cm conversion a pulgadas
+        return result;
     }
 }
